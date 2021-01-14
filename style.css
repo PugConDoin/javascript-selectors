@@ -1,0 +1,54 @@
+
+
+body {
+  background: white;
+  color: black;
+  font-family: monospace;
+}
+
+.hero {
+  padding: 20px;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-around;
+  background: hotpink;
+  border-radius: 30px;
+}
+
+.colors > div {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+#white {
+  background: white;
+}
+
+#grey {
+  background: grey;
+}
+
+#pink {
+  background: lightpink;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#black {
+  background: black;
+}
+
+.about {
+  padding: 20px;
+}
+
+.new-class {
+  text-transform: uppercase;
+}
+

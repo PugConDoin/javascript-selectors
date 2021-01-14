@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">  
+  <title>Using JavaScript Selectors</title>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1 id="hero__title">h1 tag with an id of #hero__title</h1>
+      <p class="subtext">I'm a p tag with a class of .subtext</p>
+      <p>I'm just another p tag but I have no class. The three of us are all inside a div with a class of .hero</p>
+    </div>
+  </header>
+  <div class="colors">
+    <div id="white"></div>
+    <div id="grey"></div>
+    <div id="black"></div>
+    <div id="pink"></div>
+    <div id="yellow"></div>
+  </div>
+  <div class="about">
+    <p>We're all inside a lightyellow div with a class .about</p>
+    <h2>I'm an h2 header</h2>
+    <p>I'm another classless p tag, here to explain that what follows is an unordered list ready for manipulaton in JavaScript</p>
+    <ol id="list">
+      <li class="list-item id="yellow">First list item, change me</li>
+      <li class="list-item id="black"">Second list item, change me</li>
+      <li class="list-item id="pink"">Third list item, change me</li>
+      <li class="list-item id="white"">Fouth list item, change me</li>
+      <li class="list-item id="grey"">Fifth list item, change me</li>
+    </ol>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
